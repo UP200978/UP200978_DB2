@@ -1,0 +1,6 @@
+ALTER TABLE `customers` ADD INDEX(`LAST_NAME`);
+
+CREATE OR REPLACE VIEW TITLE_UNAVAIL AS 
+
+SELECT mo.title, me.media_id 
+FROM movies mo, media me;
