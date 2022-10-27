@@ -43,7 +43,7 @@ CREATE TABLE `media` (
 ) ENGINE=InnoDB AUTO_INCREMENT=92 DEFAULT CHARSET=utf8mb4;
 
 
-CREATE TABLE `rental history` (
+CREATE TABLE `rental_history` (
   `MEDIA_ID` int(10) NOT NULL,
   `RENTAL_DATE` date NOT NULL DEFAULT current_timestamp(),
   `CUSTOMER_ID` int(10) NOT NULL,
